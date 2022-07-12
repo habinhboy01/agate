@@ -1,0 +1,321 @@
+.bg-menu2 {
+	border-bottom: 1px solid #30A0E0;
+}
+
+.menu-social,
+.menu-pc {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu-social li,
+.menu-pc li {
+	padding: 5px 10px;
+}
+
+.menu-social a {
+	font-size: 22px;
+	color: #C4C4C4;
+}
+
+.bg-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.searchform input {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #30A0E0;
+	border-radius: 8px;
+	color: #959595;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+.searchform button {
+	background: none;
+	border: none;
+}
+
+.searchform i {
+	color: #30A0E0;
+	font-size: 18px;
+}
+
+.sign-up {
+	font-weight: 500;
+	font-size: 15px;
+	color: #30A0E0;
+	border: 1px solid #30A0E0;
+	border-radius: 6px;
+	padding: 8px 25px;
+}
+
+.sign-up:hover {
+	color: #30A0E0;
+}
+
+.login {
+	background: #30A0E0;
+	font-weight: 500;
+	font-size: 15px;
+	color: white;
+	border: 1px solid #30A0E0;
+	border-radius: 6px;
+	padding: 8px 25px;
+}
+
+.login:hover {
+	color: white;
+}
+
+.menu-pc2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 10px;
+    margin-top: 40px;
+}
+
+.list-menu {
+	display: flex;
+	padding-top: 10px;
+	margin-right: 250px;
+}
+
+.list-menu li {
+	padding: 5px 15px;
+}
+
+.list-menu a {
+	font-weight: 500;
+	font-size: 16px;
+	color: #30A0E0;
+}
+
+.menu-mobile {
+	display: none;
+}
+
+@media(max-width: 1400px) {
+	.list-menu {
+		margin-right: 70px;
+	}
+}
+
+/*menu mobile*/
+
+@media(max-width: 991px) {
+	.bg-menu2 {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: block;
+		padding: 15px 0;
+		border-bottom: 1px solid #30A0E0;
+	}
+
+	.menu-main {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.logo-mobile {
+		width: 70%;
+		object-fit: cover;
+	}
+
+	.menu-social {
+		justify-content: unset;
+	}
+
+	.icon-bar {
+		font-size: 30px;
+    	margin-left: 20px;
+	}
+
+	.bg-mobile {
+		display: none;
+		text-align: center;
+	    line-height: 2.5;
+	    margin-top: 30px;
+	}
+
+	.menu-pc {
+		margin-top: 30px;
+		justify-content: center;
+	}
+
+	.menu-pc2,
+	.list-menu {
+		display: unset;
+	}
+
+	.menu-pc2 {
+		margin-top: 25px;
+	}
+
+	.list-menu {
+		margin-right: 0;
+	}
+
+	.list-menu a {
+		font-size: 18px;
+	}
+
+	.list-menu li {
+		border-bottom: 1px solid #30A0E0;
+	}
+}
+
+
+
+/*footer*/
+
+.list-footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-footer a {
+	color: white;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.list-footer li {
+	width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-footer li:nth-child(1) {
+	background: #FFB308;
+	height: 175px;
+}
+
+.list-footer li:nth-child(2) {
+	background: #30A0E0;
+	height: 196px;
+}
+
+.list-footer li:nth-child(3) {
+	background: #BB521F;
+	height: 175px;
+}
+
+.list-footer i {
+	padding-left: 20px;
+}
+
+.bg-footer2 {
+	margin-top: 8%;
+	align-items: center;
+}
+
+.content-footer {
+	text-align: center;
+}
+
+.text-footer {
+	font-weight: 500;
+	font-size: 15px; 
+	color: #959595;
+	margin-top: 35px;
+}
+
+.text-footer2 {
+	font-weight: 500;
+	font-size: 15px; 
+	color: #30A0E0;
+}
+
+.list-social {
+	display: flex;
+	justify-content: center;
+}
+
+.list-social li {
+	padding: 5px 12px;
+}
+
+.list-social a {
+	font-size: 22px;
+    color: #C4C4C4;
+}
+
+.text-footer3 {
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+}
+
+.list-agate {
+	line-height: 2.2;
+}
+
+.list-agate a {
+	font-weight: 500;
+	font-size: 15px; 
+	color: #959595;
+}
+
+.bg-footer3 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.img-footer {
+	position: relative;
+    right: 20%;
+}
+
+.img-footer2 {
+	position: relative;
+    right: 20%;
+    bottom: 50px;
+}
+
+@media(max-width: 991px) {
+	.list-footer a {
+		font-size: 25px;
+	}
+
+	.bg-footer2 {
+		text-align: center;
+	}
+
+	.text-footer3 {
+		margin-top: 30px;
+	}
+}
+
+@media(max-width: 450px) {
+	.list-footer {
+		display: unset;
+	}
+
+	.list-footer li {
+		width: 100%;
+	}
+
+	.img-footer3 {
+		width: 100%;
+		height: auto;
+	}
+
+	.content-footer2 {
+		display: none;
+	}
+}
